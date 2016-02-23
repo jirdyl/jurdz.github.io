@@ -1,19 +1,84 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<title>Judy Lin</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Portfolio</title>
+		<meta name="description" content="Portfolio" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
-		<h1>Art Portfolio</h1>
-		<img src="https://render.bitstrips.com/v2/cpanel/9653114-123216373_19-s1-v1.png?palette=1" />
-		<p>Website in progress.</p>
-		<p>Some things to do:</p>
-			<ul>
-				<li>Design layout</li>
-				<li>Add navigation</li>
-				<li>Fill in content</li>
-				<li>Fancy extra stuff</li>
-		</ul>
+		<div class="container">	
+			<header class="clearfix">
+				<h1>Judy Lin<span>some art for now</span></h1>	
+			</header>
+			<div class="main">
+				<ul id="og-grid" class="og-grid">
+                    <li>
+                        <a href="" data-largesrc="images/1.jpg" data-title="Double Fish" data-description="2014 Craft Paint">
+                            <img src="images/thumbs/1.jpg" alt="img01" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/2.jpg" data-title="The Pearl" data-description="2014 Craft Paint">
+                            <img src="images/thumbs/2.jpg" alt="img02" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/3.jpg" data-title="Reflection" data-description="2014 Craft Paint">
+                            <img src="images/thumbs/3.jpg" alt="img03" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/4.png" data-title="Printemps" data-description="2015 Craft Paint Colored Pencil">
+                            <img src="images/thumbs/4.png" alt="img04" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/32.jpg" data-title="Self Portrait Exploration" data-description="2014 Craft Paint Colored Pencil Graphite">
+                            <img src="images/thumbs/32.jpg" alt="img32" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/42.jpg" data-title="Makeup" data-description="2013 Pen">
+                            <img src="images/thumbs/34.jpg" alt="img34" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/6.jpg" data-title="Sruthi" data-description="2014 Craft Paint">
+                            <img src="images/thumbs/6.jpg" alt="img06" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/20.jpg" data-title="Non-referential Work" data-description="2014 Pen Colored Pencil">
+                            <img src="images/thumbs/20.jpg" alt="img20" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/36.jpg" data-title="From Above" data-description="2013 Colored Pencil">
+                            <img src="images/thumbs/36.jpg" alt="img36" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/47.png" data-title="FBU Design" data-description="2015 Adobe Illustrator">
+                            <img src="images/thumbs/37.png" alt="img37" />
+                        </a>
+                    </li>
+				</ul>
+				<p>more to do</p>
+				<a id="og-additems" href="#"></a>
+			</div>
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
 	</body>
 </html>
